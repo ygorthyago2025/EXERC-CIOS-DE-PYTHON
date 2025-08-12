@@ -1,0 +1,5 @@
+def inverter_lista(lista):
+    return lista[::-1]
+
+numeros = list(map(int, input("Digite números separados por espaço: ").split()))
+print("Lista invertida:", inverter_lista(numeros))
